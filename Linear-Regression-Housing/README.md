@@ -7,9 +7,9 @@ The goal of this project is to use a linear regression model to accurately predi
 
 | Item | Description | Link |
 | --- | --- | --- |
-| Project Code |  Technical Notebook of Code (Jupyter Notebook)| [Link](Ames-Housing-Project-Eddie-Reed.ipynb)|
+| Project Code |  Technical Notebook of Code (Jupyter Notebook)| [Link](Ames-Housing-Project-code.ipynb)|
 | Data | Repository of datasets used in project | [Link](datasets)|
-|Power Point| Slide deck of presentation| [Link](Project_2_Ames_Iowa_linear_regression_eddie_reed.pptx)|
+|PDF| Slide deck of presentation| [Link](Ames_Iowa_linear_regression_presentation.pdf)|
 ---
 ## Data Collection and EDA
 The data used in this project was a csv file of historical sales data of houses in Ames, Iowa.  The dataset contained 2050 observations (rows) with 81 different columns(features). 
