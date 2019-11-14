@@ -1,0 +1,4 @@
+assessment_id,address,zillow_id,home_type,year_built,lot_size,living_area,num_bathrooms,num_bedrooms,last_sold_time,last_sold_price,zestimate_price,before_image,after_image,disater_type,damge_degree,occupancy_status,rent_status,property_access,additional notes
+,"123 main street, Anytown, NY, 01193",23456663,single family,2010,10004,3500,3.5,6,2015,350000,500000,,,flood,4,none,2345,full access,family has ben living in hotels for last 3 weeks.  The want their proptery restored ASAP.
+,"700 Falls Lake Drive, Bowiel, MD 20721",44586754,single family,1996,12500,4000,4,8,1998,218000,495000,,,fire,4,none,none,no access,house is completely destroyeed
+,"600 Water Island  Road, Falls Church, Iowa, 75463",55652345,town home,2017,2000,1543,1.5,3,1990,65000,150000,,,tornado,3,yes,none,partial access,The house is half up and running

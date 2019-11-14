@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<br>
+
+<h2>Satellite Imagery for {{neighborhood_name}}</h2>
+<br>
+<br>
+<img src="{{ satellite_image }}" alt="Satellite Image" class="center", width='800'>
+
+<br><br>
+
+<a href="/welcome">Return to Welcome Page</a>
+<br><br>
+  <div class="border-top pt-3">
+    <small class="text-muted">
+      <a class ="ml-2" href = "{{url_for('home')}}">Logout</a></small>
+    <!-- create a link to the login page  -->
+  </div>
+</p>
+
+<br><br>
+      {% endblock content %}

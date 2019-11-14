@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<br>
+
+<h2>Verify Address</h2>
+<br>
+<h4>Option 1: Select correct address</h4>
+<br>
+  <form action="/report">
+   <select name="address">
+     <option value="address_1">{{address_1}}</option>
+     <option value="address_2">{{address_2}}</option>
+     <option value="address_3">{{address_3}}</option>
+     <option value="address_4">{{address_4}}</option>
+   </select>
+   <br><br>
+   <input type="submit" class="btn btn-outline-info">
+ </form>
+
+<br><br>
+<h4>Option 2: Enter correct address</h4>
+<br>
+{{form.hidden_tag()}}
+<div class="form-group">
+    {{form.address.label(class = "form-control-label")}}
+    {% if form.address.errors %}
+        {{form.address.label(class = "form-control form-control-lg is-invalid")}}
+            <div class="invalid feedback">
+                {% for error in form.address.errors %}
+                    <span>{{error}}</span>
+                {% endfor %}
+            </div>
+    {% else %}
+        {{form.address(class = "form-control form-control-lg")}}
+    {% endif %}
+    <br>
+    <input type="submit" class="btn btn-outline-info">
+</div>
+
+
+  <div class="border-top pt-3">
+    <small class="text-muted">
+      <a class ="ml-2" href = "{{url_for('home')}}">Logout</a></small>
+    <!-- create a link to the login page
+  </div>
+</p>
+
+<br><br>
+      {% endblock content %}

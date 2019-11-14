@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+<body>
+  <h1>FEMA Damage Assessment Tools</h1>
+  <br>
+  This web app is designed to streamline the damage asssessment process for FEMA employees. There are two major functionalities: <br><br>
+  <li>Retrieve Satellite Imagery</li>
+  <li>File a Damage Assessment Report</li>
+  <br>
+  The satellite imagery tool helps FEMA employees in the office. From a dropdown menu, the user can select one of several neighborhoods within the region, and then the app will return a near-real-time satellite image of the neighborhood. This tool can help FEMA visually assess the safety, accessibility, and priority of each neighborhood.
+  <br><br>
+  The damage assessment form tool helps FEMA employees in the field. To file a damage assessment report, the FEMA damage assessor first uploads a photo of the damaged property, then verifies the address. An automatic report will be generated containing the user's photo alongside the Google Streetview of the same property, for an easy visual comparison of before and after the event. The report also includes basic property information from Zillow, including the estimated value of the property. The damage assessor will record additional information about the damages to the property. Upon submitting the report, all the information will be sent to a database and can be accessed at headquarters.
+
+  </Body>
+{% endblock content %}

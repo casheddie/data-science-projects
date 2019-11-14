@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<br>
+
+<h2>Retrieve Satellite Imagery</h2>
+<br>
+<p>
+  <i>Select neighborhood to retrieve most recent satellite imagery</i>
+  <br>
+
+  <form action="/satellite">
+   <select name="neighborhood">
+     <option value="n_1">Anacostia</option>
+     <option value="n_2">Barry Farm</option>
+     <option value="n_3">Bellevue</option>
+     <option value="n_4">Buena Vista</option>
+     <option value="n_5">Congress Heights</option>
+     <option value="n_6">Douglass</option>
+     <option value="n_7">Fairlawn</option>
+     <option value="n_8">Garfield Heights</option>
+     <option value="n_9">Knox Hill</option>
+     <option value="n_10">Shipley Terrace</option>
+     <option value="n_11">Washington Highlands</option>
+     <option value="n_12">Woodland</option>
+   </select>
+   <br><br><br>
+   <input type="Submit">
+
+  </form>
+<br>
+
+
+  <div class="border-top pt-3">
+    <small class="text-muted">
+      <a class ="ml-2" href = "{{url_for('home')}}">Logout</a></small>
+  </div>
+</p>
+
+<br><br>
+      {% endblock content %}
