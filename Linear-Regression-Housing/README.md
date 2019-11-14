@@ -1,4 +1,4 @@
-Prediciting Housing Prices in Ames, Iowa using Linear Regression
+## Prediciting Housing Prices in Ames, Iowa using Linear Regression
 
 ---
 ## Executive Summary 
