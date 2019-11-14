@@ -1,4 +1,4 @@
-Web Scraping and Using NLP to Evaluate Machine Learning Models
+# Web Scraping and Using NLP to Evaluate Machine Learning Models
 ---
 ## Executive Summary 
 In this project, we are asked to perform web scraping to collect subreddit posts data of two different subreddits to be used to train a machine learning model to be able to predict the origin of subreddit the posts came from.  I selected the Apple and Samsung subreddits to compare.  This problem can be classified as a binary claissification problem.  The success of the model would be determined by how accurate it performs predicting if a post came from the Apple or the Samsung subreddit by analyzing the text collected from each posts.  A high accuracy score when the model processes data it has not seen be a good indicator if the model is performing well.
