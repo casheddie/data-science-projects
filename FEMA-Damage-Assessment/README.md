@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/qyeC8s6.png" width="250" height="100" alt="FEMA Report">
 
 # FEMA Damage Assessment Web App
-Project by <a href="https://www.linkedin.com/in/eileen-palmer-b8bb5626/" rel="nofollow">Eileen Palmer</a>, <a href="https://www.linkedin.com/in/eddie-reed-628893/" rel="nofollow">Eddie Reed</a> and <a href="https://www.linkedin.com/in/jurgen-arias-02371117/" rel="nofollow">Jurgen Arias</a>.
+Project by <a href="https://www.linkedin.com/in/eileen-palmer-b8bb5626/" rel="nofollow">Eileen Palmer</a>, <a href="https://www.linkedin.com/in/eddie-reed/" rel="nofollow">Eddie Reed</a> and <a href="https://www.linkedin.com/in/jurgen-arias-02371117/" rel="nofollow">Jurgen Arias</a>.
 
 <br></br>
 
