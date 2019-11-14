@@ -8,4 +8,4 @@ This repo contains some data science projects I have completed over the course o
 2. Natural Language Processing Model used to Classify Source of Reddit Posts. [Link](NLP-Reddit)
 3. FEMA Damage Assessment App using Flask and MySQL Database. [Link](FEMA-Damage-Assessment)
 4. Random Forest Model used to Predict Income Levels using U.S. Census Data. [Link](Random-Forest-Wage-Level-Predictions)
-5. Short Lecture on Support Vector Machines. [Link](
+5. Short Lecture on Support Vector Machines. [Link](Support-Vector-Machines)
